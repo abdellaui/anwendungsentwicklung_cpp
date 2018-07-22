@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5ADEFDB23D194E10B86C4FEF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D07DEACEE91144179DD53C44 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				48C9C52645B440A7921F307B /* CMake Rules */,
+			);
+			dependencies = (
+				D811984D94574EAD86A688DC /* PBXTargetDependency */,
+				A65A55752DC84F5FA837E8C7 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5ED3E67D489644F8AAEFED39 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EFCBD9FCA6B349889B80D8BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				DE230B25CA9C4F8691AF7917 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		88B24C5D635145D4B2E60FAC /* 01_aufgabe_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6B2C3B9CD94A4A7584218D37 /* Build configuration list for PBXAggregateTarget "01_aufgabe_autogen" */;
+			buildPhases = (
+				10EFFCE9A9D7438B9E6E1D71 /* CMake Rules */,
+			);
+			dependencies = (
+				F43C520E77834B3BB3EAB45C /* PBXTargetDependency */,
+			);
+			name = 01_aufgabe_autogen;
+			productName = 01_aufgabe_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A85EB5FEF084812B37BC329 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = B3D46610570C449DA17E7105 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/mocs_compilation.cpp */; };
+		29F51150617641198EAFE8B9 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp */ = {isa = PBXBuildFile; fileRef = E6B8B430BE81475B8BDC0B2F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp */; };
+		357CFA7DD6C74AD29476EA35 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.h */ = {isa = PBXBuildFile; fileRef = 43EC2D5AE77B47C8B3028BC2 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.h */; };
+		3FF4442681C4432C837EAFB6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp */ = {isa = PBXBuildFile; fileRef = BD558533960B45989F776AD9 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp */; };
+		565B615577C6414BAF267006 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp */ = {isa = PBXBuildFile; fileRef = E5914B29AFFA406BAD07C0F7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp */; };
+		647795CE083C4F8AAFD60CAF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp */ = {isa = PBXBuildFile; fileRef = 65E4C33726854EF8BBAE3D66 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp */; };
+		717DEB5B154C48DCB77362D8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4DD8153E84C44B87B88E7968 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */; };
+		75509C7A698F47CAB1762D06 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.h */ = {isa = PBXBuildFile; fileRef = 87EB1292482B40ECB28971FF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.h */; };
+		77FC44F23EB440A38A4CCFE1 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.h */ = {isa = PBXBuildFile; fileRef = 99F1401C3912413489E53E99 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.h */; };
+		93BDF69A96BB458FB2E400B5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp */ = {isa = PBXBuildFile; fileRef = 99782439D68148A4A72B250E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp */; };
+		9841F436114044149D32E3BE /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.h */ = {isa = PBXBuildFile; fileRef = CED9E114BDCC4F86BC41CFA5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.h */; };
+		A02A5A6831254D8C90A28C8B /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.h */ = {isa = PBXBuildFile; fileRef = 6DC51E81999C486B81DF2FEA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.h */; };
+		BC375AED612E4F39ACAAE2AA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/ui_TestMainWindow.h */ = {isa = PBXBuildFile; fileRef = D9326E028E9241D8B0C20B47 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/ui_TestMainWindow.h */; };
+		C6AFCF406F0A45BEB835A37D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp */ = {isa = PBXBuildFile; fileRef = 2D437BB6124240379FA52F8D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp */; };
+		DD2AB92A41024AE3B47E5FE6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/gui/TestMainWindow.ui */ = {isa = PBXBuildFile; fileRef = CDC4A40969BA43B3B94848B8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/gui/TestMainWindow.ui */; };
+		E7248AD539784C9F9F887360 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.h */ = {isa = PBXBuildFile; fileRef = A2259ECFD0394C2996B62B93 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.h */; };
+		E798B4B9B8D4445D94A0D01A /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp */ = {isa = PBXBuildFile; fileRef = 50B78DD8176049CCB6AD08A8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		572C81FC4ECB4D62882E7C06 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		983E0DF0CD0044A98A1BAE39 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E528730C53D242DEA322CF39 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F37CD8959CDF4CD0AA5AE57D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB92638622046CABD59A90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED3E67D489644F8AAEFED39;
+			remoteInfo = ZERO_CHECK;
+		};
+		865403D2EEB2403DB86382D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DB776B324648D48D3C437F;
+			remoteInfo = 01_aufgabe;
+		};
+		9FFED6B32340469489BA5D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED3E67D489644F8AAEFED39;
+			remoteInfo = ZERO_CHECK;
+		};
+		AFBB556739004621B75E60AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B24C5D635145D4B2E60FAC;
+			remoteInfo = 01_aufgabe_autogen;
+		};
+		E084DB46B3E4479CAED892DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED3E67D489644F8AAEFED39;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D437BB6124240379FA52F8D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = ../include/main.cpp; sourceTree = SOURCE_ROOT; };
+		43EC2D5AE77B47C8B3028BC2 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CSVManager.h; path = ../include/CSVManager.h; sourceTree = SOURCE_ROOT; };
+		4DD8153E84C44B87B88E7968 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		509AD2331A6D4244BAA0F458 /* 01_aufgabe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 01_aufgabe; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B78DD8176049CCB6AD08A8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CSVManager.cpp; path = ../include/CSVManager.cpp; sourceTree = SOURCE_ROOT; };
+		585F9D824AA143BB861BE4C7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65E4C33726854EF8BBAE3D66 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestMainWindow.cpp; path = ../include/TestMainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		6DC51E81999C486B81DF2FEA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SQLManager.h; path = ../include/SQLManager.h; sourceTree = SOURCE_ROOT; };
+		87EB1292482B40ECB28971FF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Adresseingabe.h; path = ../include/Adresseingabe.h; sourceTree = SOURCE_ROOT; };
+		99782439D68148A4A72B250E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ownValidator.cpp; path = ../include/ownValidator.cpp; sourceTree = SOURCE_ROOT; };
+		99F1401C3912413489E53E99 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TestMainWindow.h; path = ../include/TestMainWindow.h; sourceTree = SOURCE_ROOT; };
+		A07BBCEDD65544B0A37B89C0 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A2259ECFD0394C2996B62B93 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AdressModel.h; path = ../include/AdressModel.h; sourceTree = SOURCE_ROOT; };
+		B3D46610570C449DA17E7105 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../xcode/01_aufgabe_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		BD558533960B45989F776AD9 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SQLManager.cpp; path = ../include/SQLManager.cpp; sourceTree = SOURCE_ROOT; };
+		CDC4A40969BA43B3B94848B8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/gui/TestMainWindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TestMainWindow.ui; path = ../gui/TestMainWindow.ui; sourceTree = SOURCE_ROOT; };
+		CED9E114BDCC4F86BC41CFA5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ownValidator.h; path = ../include/ownValidator.h; sourceTree = SOURCE_ROOT; };
+		D9326E028E9241D8B0C20B47 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/ui_TestMainWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_TestMainWindow.h; path = ../xcode/ui_TestMainWindow.h; sourceTree = SOURCE_ROOT; };
+		E5914B29AFFA406BAD07C0F7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AdressModel.cpp; path = ../include/AdressModel.cpp; sourceTree = SOURCE_ROOT; };
+		E6B8B430BE81475B8BDC0B2F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Adresseingabe.cpp; path = ../include/Adresseingabe.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A73CE4B619B426DAE93F03B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		902B19F7222F4B2A99C60B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509AD2331A6D4244BAA0F458 /* 01_aufgabe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D026CAD0DE94AF0B74DDCBE /* 01_aufgabe */ = {
+			isa = PBXGroup;
+			children = (
+				BDD24D334B9147BEB46110D8 /* Header Files */,
+				E37F064F7AF04B63ABCBA857 /* Source Files */,
+				4DD8153E84C44B87B88E7968 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */,
+				CDC4A40969BA43B3B94848B8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/gui/TestMainWindow.ui */,
+			);
+			name = 01_aufgabe;
+			sourceTree = "<group>";
+		};
+		ADE6A1B20348483F9C6F99A5 /* 01_aufgabe_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				2A73CE4B619B426DAE93F03B /* CMake Rules */,
+				585F9D824AA143BB861BE4C7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */,
+			);
+			name = 01_aufgabe_autogen;
+			sourceTree = "<group>";
+		};
+		BDD24D334B9147BEB46110D8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2259ECFD0394C2996B62B93 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.h */,
+				87EB1292482B40ECB28971FF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.h */,
+				43EC2D5AE77B47C8B3028BC2 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.h */,
+				6DC51E81999C486B81DF2FEA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.h */,
+				99F1401C3912413489E53E99 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.h */,
+				CED9E114BDCC4F86BC41CFA5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.h */,
+				D9326E028E9241D8B0C20B47 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/ui_TestMainWindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D7009C41C8B24AF7B67B8697 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F47B2010FC8F40EF9FE51A2C /* CMake Rules */,
+				A07BBCEDD65544B0A37B89C0 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E37F064F7AF04B63ABCBA857 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5914B29AFFA406BAD07C0F7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp */,
+				E6B8B430BE81475B8BDC0B2F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp */,
+				50B78DD8176049CCB6AD08A8 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp */,
+				BD558533960B45989F776AD9 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp */,
+				65E4C33726854EF8BBAE3D66 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp */,
+				2D437BB6124240379FA52F8D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp */,
+				99782439D68148A4A72B250E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp */,
+				B3D46610570C449DA17E7105 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E771F36D95B14BE2AA51961E = {
+			isa = PBXGroup;
+			children = (
+				9D026CAD0DE94AF0B74DDCBE /* 01_aufgabe */,
+				ADE6A1B20348483F9C6F99A5 /* 01_aufgabe_autogen */,
+				D7009C41C8B24AF7B67B8697 /* ALL_BUILD */,
+				902B19F7222F4B2A99C60B02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F47B2010FC8F40EF9FE51A2C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DB776B324648D48D3C437F /* 01_aufgabe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C71BB6C9BC4AF98E72848E /* Build configuration list for PBXNativeTarget "01_aufgabe" */;
+			buildPhases = (
+				4F4B592EFC594607BC383D4F /* CMake Rules */,
+				92AED6E2D66142B983A8AFB9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8728D3A802464A999D41D1 /* PBXTargetDependency */,
+				59C5D54C71F744569403B542 /* PBXTargetDependency */,
+			);
+			name = 01_aufgabe;
+			productName = 01_aufgabe;
+			productReference = 509AD2331A6D4244BAA0F458 /* 01_aufgabe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E9CFCA7C41405AA5B57A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 66B444F783BF476986DE36C9 /* Build configuration list for PBXProject "01_aufgabe" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				572C81FC4ECB4D62882E7C06 /* Debug */,
+				E528730C53D242DEA322CF39 /* Release */,
+				983E0DF0CD0044A98A1BAE39 /* MinSizeRel */,
+				F37CD8959CDF4CD0AA5AE57D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E771F36D95B14BE2AA51961E;
+			projectDirPath = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake";
+			projectRoot = "";
+			targets = (
+				5ADEFDB23D194E10B86C4FEF /* ALL_BUILD */,
+				66DB776B324648D48D3C437F /* 01_aufgabe */,
+				88B24C5D635145D4B2E60FAC /* 01_aufgabe_autogen */,
+				5ED3E67D489644F8AAEFED39 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FBC9C7EA6834B8889069722 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		10EFFCE9A9D7438B9E6E1D71 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/CMakeScripts/01_aufgabe_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2B347BCCD57D4AB1B677AC83 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		464FD65C795E441D80473190 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		48C9C52645B440A7921F307B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4F4B592EFC594607BC383D4F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/CMakeScripts/01_aufgabe_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DE230B25CA9C4F8691AF7917 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AED6E2D66142B983A8AFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565B615577C6414BAF267006 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp */,
+				29F51150617641198EAFE8B9 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp */,
+				E798B4B9B8D4445D94A0D01A /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp */,
+				3FF4442681C4432C837EAFB6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp */,
+				647795CE083C4F8AAFD60CAF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp */,
+				C6AFCF406F0A45BEB835A37D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp */,
+				93BDF69A96BB458FB2E400B5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp */,
+				1A85EB5FEF084812B37BC329 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59C5D54C71F744569403B542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED3E67D489644F8AAEFED39 /* ZERO_CHECK */;
+			targetProxy = 1DB92638622046CABD59A90C /* PBXContainerItemProxy */;
+		};
+		5F8728D3A802464A999D41D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B24C5D635145D4B2E60FAC /* 01_aufgabe_autogen */;
+			targetProxy = AFBB556739004621B75E60AD /* PBXContainerItemProxy */;
+		};
+		A65A55752DC84F5FA837E8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DB776B324648D48D3C437F /* 01_aufgabe */;
+			targetProxy = 865403D2EEB2403DB86382D5 /* PBXContainerItemProxy */;
+		};
+		D811984D94574EAD86A688DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED3E67D489644F8AAEFED39 /* ZERO_CHECK */;
+			targetProxy = 9FFED6B32340469489BA5D13 /* PBXContainerItemProxy */;
+		};
+		F43C520E77834B3BB3EAB45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED3E67D489644F8AAEFED39 /* ZERO_CHECK */;
+			targetProxy = E084DB46B3E4479CAED892DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0275AF6914FC41A483B8E1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_SQL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/include_Debug","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/abdullah/Library/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/QtSql /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1BCEEFAEEE034E578BC94E6D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2B3D14B5B5AA4141ABA44DD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		444B3036C52A476B95F50D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4FF480640A7E46A2B21EB2FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_SQL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/include_RelWithDebInfo","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/abdullah/Library/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/QtSql /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		546844E6DCA44BA2B5558408 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6508F2477A7F4C03BE210712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6DA0A7A5EED045C9BC6268C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7100D29AB27649B5A4810391 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7EE7ED616F6441568E89AF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_SQL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/include_Release","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/abdullah/Library/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/QtSql /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8FD07A4FF2E24A298049E757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		98DEF289FC2A4D61A7284EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/build";
+			};
+			name = Release;
+		};
+		A2703981453341C5A9907851 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		A2BB1268E7D845E89932589A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A8A85D30C779457A85127B7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B16AE7767BCA433390ADE93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/build";
+			};
+			name = Debug;
+		};
+		B680E91E67D2430DB3F7607D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_SQL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode/01_aufgabe_autogen/include_MinSizeRel","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/abdullah/Library/Qt/5.10.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/QtSql /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang",/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtSql.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BA8AB9DC219040D8A07BC129 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EFEBC163DE954D8BA98E7C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F7405EE916394876ACE45B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B444F783BF476986DE36C9 /* Build configuration list for PBXProject "01_aufgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16AE7767BCA433390ADE93D /* Debug */,
+				98DEF289FC2A4D61A7284EA1 /* Release */,
+				A2703981453341C5A9907851 /* MinSizeRel */,
+				A2BB1268E7D845E89932589A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B2C3B9CD94A4A7584218D37 /* Build configuration list for PBXAggregateTarget "01_aufgabe_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBC163DE954D8BA98E7C4E /* Debug */,
+				6DA0A7A5EED045C9BC6268C6 /* Release */,
+				1BCEEFAEEE034E578BC94E6D /* MinSizeRel */,
+				2B3D14B5B5AA4141ABA44DD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0C71BB6C9BC4AF98E72848E /* Build configuration list for PBXNativeTarget "01_aufgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0275AF6914FC41A483B8E1B0 /* Debug */,
+				7EE7ED616F6441568E89AF13 /* Release */,
+				B680E91E67D2430DB3F7607D /* MinSizeRel */,
+				4FF480640A7E46A2B21EB2FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D07DEACEE91144179DD53C44 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7405EE916394876ACE45B34 /* Debug */,
+				8FD07A4FF2E24A298049E757 /* Release */,
+				BA8AB9DC219040D8A07BC129 /* MinSizeRel */,
+				546844E6DCA44BA2B5558408 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EFCBD9FCA6B349889B80D8BC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B3036C52A476B95F50D33 /* Debug */,
+				6508F2477A7F4C03BE210712 /* Release */,
+				7100D29AB27649B5A4810391 /* MinSizeRel */,
+				A8A85D30C779457A85127B7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E9CFCA7C41405AA5B57A47 /* Project object */;
+}

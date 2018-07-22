@@ -1,0 +1,4 @@
+/Users/abdullah/_UNIVERSITAET/3-FILES/semester_3/anwendungsentwicklung/cpp/07_tag/xcode/CMakeFiles/07_tag_01_aufgabe.dir
+/Users/abdullah/_UNIVERSITAET/3-FILES/semester_3/anwendungsentwicklung/cpp/07_tag/xcode/CMakeFiles/07_tag_01_aufgabe_autogen.dir
+/Users/abdullah/_UNIVERSITAET/3-FILES/semester_3/anwendungsentwicklung/cpp/07_tag/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/abdullah/_UNIVERSITAET/3-FILES/semester_3/anwendungsentwicklung/cpp/07_tag/xcode/CMakeFiles/ZERO_CHECK.dir

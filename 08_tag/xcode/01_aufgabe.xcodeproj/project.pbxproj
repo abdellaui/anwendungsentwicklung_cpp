@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D33F5DF173D4F6099D7DC30 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 654CDD28EF114F5189BC58AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				12883E17AFE340C4891CA7B6 /* CMake Rules */,
+			);
+			dependencies = (
+				468A6E37F8A24EA0A52AE2C1 /* PBXTargetDependency */,
+				92BBF73DDD8D472CBB2B4292 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BB78E803FF3A476883B55D44 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 58EC2376FCBD44A2BE40BB4D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				60DEE8D48D504AF288DAEA9E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		DFB14AC903554601B444DC9E /* 01_aufgabe_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC0F9B7FA1184465A73DA440 /* Build configuration list for PBXAggregateTarget "01_aufgabe_autogen" */;
+			buildPhases = (
+				2963B0E530304F28A834B25A /* CMake Rules */,
+			);
+			dependencies = (
+				C6A5EC726AC843EE93D648E5 /* PBXTargetDependency */,
+			);
+			name = 01_aufgabe_autogen;
+			productName = 01_aufgabe_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		012F337B288041959EA1AD4D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/TrainWidget.h */ = {isa = PBXBuildFile; fileRef = CF5B92986C5B44AEA05B5144 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/TrainWidget.h */; };
+		08AA3171E0954E5AAA545B3C /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/MainWindow.ui */ = {isa = PBXBuildFile; fileRef = E47CEDDE1C6B46E2B3526A12 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/MainWindow.ui */; };
+		10F3C3E04CD143D8B7A13F95 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E5AA909B76ED49ABAA4E7F81 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/main.cpp */; };
+		287FB8C286FE49B4991D5806 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_MainWindow.h */ = {isa = PBXBuildFile; fileRef = 491172858600498282E1D2FD /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_MainWindow.h */; };
+		2992F1272FA24AD4A4389082 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 962F91F3B70B47F8AA4D33C5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/mocs_compilation.cpp */; };
+		37C691CDEFD74DFBB08AABEC /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/Brain.h */ = {isa = PBXBuildFile; fileRef = AD9BD7F151F2422297C43786 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/Brain.h */; };
+		71FA0E2140174FA4BF8D7639 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_TrainWidget.h */ = {isa = PBXBuildFile; fileRef = 62E9A58D2FFF44EC9032084C /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_TrainWidget.h */; };
+		753B0C511E024C51B89B5793 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/LoadDataWidget.cpp */ = {isa = PBXBuildFile; fileRef = 7A88AF39D6E348A2BEA6C9C6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/LoadDataWidget.cpp */; };
+		75B10CDAD359493EBF08C777 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/TrainWidget.ui */ = {isa = PBXBuildFile; fileRef = 021BB7E36C9A453DA2D339A7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/TrainWidget.ui */; };
+		872C376769BE409190D2D6FE /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/LoadDataWidget.h */ = {isa = PBXBuildFile; fileRef = 4F40EA8C995F43338D5246A4 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/LoadDataWidget.h */; };
+		9B8212DDB5C04B2C91A9FB10 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/LoadDataWidget.ui */ = {isa = PBXBuildFile; fileRef = E656CEBE908D4A3D933F26A1 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/LoadDataWidget.ui */; };
+		AF4AF44D40104D5B83F6CE15 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/TrainWidget.cpp */ = {isa = PBXBuildFile; fileRef = F6B787E527B9427D8316E9EF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/TrainWidget.cpp */; };
+		B3CD45AF95C948FE97200C1E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/MainWindow.cpp */ = {isa = PBXBuildFile; fileRef = 7BBADBD81E414B0EA3B25FCA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/MainWindow.cpp */; };
+		C79F93BBF98A49D9B59A333C /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/MainWindow.h */ = {isa = PBXBuildFile; fileRef = 52ED81269AB84AB0A10E509F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/MainWindow.h */; };
+		DC25F31A43F949E9B065354E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_LoadDataWidget.h */ = {isa = PBXBuildFile; fileRef = 90B6A081591C41AE8B0CA72A /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_LoadDataWidget.h */; };
+		EA732D3CBABD47329D1CE4B1 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 26CCA82FF0934F6A8B22F720 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */; };
+		F36BF1BF7DEF43A6A8766823 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/Brain.cpp */ = {isa = PBXBuildFile; fileRef = 48A4728A0A064D848A6CA036 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/Brain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		8BB8DE870BC14AABBB7FDC3A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A87DDA5F457F4FC1897958F0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A9226ECD92E746069167415E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ABED2DBA67D046B4A0B54FE5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		343AA5B859CB48A3BEEA11F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FBEB10EF3E4960A7D79497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB78E803FF3A476883B55D44;
+			remoteInfo = ZERO_CHECK;
+		};
+		9B855AC6A832418C921CC3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FBEB10EF3E4960A7D79497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB78E803FF3A476883B55D44;
+			remoteInfo = ZERO_CHECK;
+		};
+		A7464F5C9CAB4E40B9A5985F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FBEB10EF3E4960A7D79497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB14AC903554601B444DC9E;
+			remoteInfo = 01_aufgabe_autogen;
+		};
+		E9807FD7DF3A47BA80DB4C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FBEB10EF3E4960A7D79497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB78E803FF3A476883B55D44;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD4648C80D7D4EBCB472AC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FBEB10EF3E4960A7D79497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D3F6A3DB954B6DAD3B0410;
+			remoteInfo = 01_aufgabe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021BB7E36C9A453DA2D339A7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/TrainWidget.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = TrainWidget.ui; path = ../gui/TrainWidget.ui; sourceTree = SOURCE_ROOT; };
+		26CCA82FF0934F6A8B22F720 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		46E6A580209A4C5FAB959659 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		48A4728A0A064D848A6CA036 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/Brain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Brain.cpp; path = ../src/Brain.cpp; sourceTree = SOURCE_ROOT; };
+		491172858600498282E1D2FD /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_MainWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_MainWindow.h; path = ../xcode/ui_MainWindow.h; sourceTree = SOURCE_ROOT; };
+		4F40EA8C995F43338D5246A4 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/LoadDataWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LoadDataWidget.h; path = ../include/LoadDataWidget.h; sourceTree = SOURCE_ROOT; };
+		52ED81269AB84AB0A10E509F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/MainWindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MainWindow.h; path = ../include/MainWindow.h; sourceTree = SOURCE_ROOT; };
+		62E9A58D2FFF44EC9032084C /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_TrainWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_TrainWidget.h; path = ../xcode/ui_TrainWidget.h; sourceTree = SOURCE_ROOT; };
+		7A88AF39D6E348A2BEA6C9C6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/LoadDataWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LoadDataWidget.cpp; path = ../src/LoadDataWidget.cpp; sourceTree = SOURCE_ROOT; };
+		7BBADBD81E414B0EA3B25FCA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/MainWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MainWindow.cpp; path = ../src/MainWindow.cpp; sourceTree = SOURCE_ROOT; };
+		90B6A081591C41AE8B0CA72A /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_LoadDataWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_LoadDataWidget.h; path = ../xcode/ui_LoadDataWidget.h; sourceTree = SOURCE_ROOT; };
+		962F91F3B70B47F8AA4D33C5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = ../xcode/01_aufgabe_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		AD9BD7F151F2422297C43786 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/Brain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Brain.h; path = ../include/Brain.h; sourceTree = SOURCE_ROOT; };
+		CF5B92986C5B44AEA05B5144 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/TrainWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TrainWidget.h; path = ../include/TrainWidget.h; sourceTree = SOURCE_ROOT; };
+		D759747EF5FF4A6DA868C92D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E47CEDDE1C6B46E2B3526A12 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/MainWindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = MainWindow.ui; path = ../gui/MainWindow.ui; sourceTree = SOURCE_ROOT; };
+		E5AA909B76ED49ABAA4E7F81 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = ../src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E656CEBE908D4A3D933F26A1 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/LoadDataWidget.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = LoadDataWidget.ui; path = ../gui/LoadDataWidget.ui; sourceTree = SOURCE_ROOT; };
+		EA1F15F147CD451A82C268BA /* 01_aufgabe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = 01_aufgabe; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B787E527B9427D8316E9EF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/TrainWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TrainWidget.cpp; path = ../src/TrainWidget.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0756F3968B5446CFB352F66D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0827DF9C027640D8BD29E42C = {
+			isa = PBXGroup;
+			children = (
+				0ABA9BE1BE614E20A60EE595 /* 01_aufgabe */,
+				D20ABEE041C346328FE5532D /* 01_aufgabe_autogen */,
+				9C0FF1FF41A64800A072081E /* ALL_BUILD */,
+				38F4482C82CE44ACAF30624D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ABA9BE1BE614E20A60EE595 /* 01_aufgabe */ = {
+			isa = PBXGroup;
+			children = (
+				AFF158CF72C24085B3A54167 /* Header Files */,
+				B57C2105CC224A0EA08DD9AB /* Source Files */,
+				26CCA82FF0934F6A8B22F720 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */,
+				E656CEBE908D4A3D933F26A1 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/LoadDataWidget.ui */,
+				E47CEDDE1C6B46E2B3526A12 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/MainWindow.ui */,
+				021BB7E36C9A453DA2D339A7 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/gui/TrainWidget.ui */,
+			);
+			name = 01_aufgabe;
+			sourceTree = "<group>";
+		};
+		38F4482C82CE44ACAF30624D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1F15F147CD451A82C268BA /* 01_aufgabe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C0FF1FF41A64800A072081E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0756F3968B5446CFB352F66D /* CMake Rules */,
+				46E6A580209A4C5FAB959659 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9F04F5965B4C407280C37662 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AFF158CF72C24085B3A54167 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD9BD7F151F2422297C43786 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/Brain.h */,
+				4F40EA8C995F43338D5246A4 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/LoadDataWidget.h */,
+				52ED81269AB84AB0A10E509F /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/MainWindow.h */,
+				CF5B92986C5B44AEA05B5144 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/include/TrainWidget.h */,
+				90B6A081591C41AE8B0CA72A /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_LoadDataWidget.h */,
+				491172858600498282E1D2FD /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_MainWindow.h */,
+				62E9A58D2FFF44EC9032084C /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/ui_TrainWidget.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B57C2105CC224A0EA08DD9AB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A4728A0A064D848A6CA036 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/Brain.cpp */,
+				7A88AF39D6E348A2BEA6C9C6 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/LoadDataWidget.cpp */,
+				7BBADBD81E414B0EA3B25FCA /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/MainWindow.cpp */,
+				F6B787E527B9427D8316E9EF /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/TrainWidget.cpp */,
+				E5AA909B76ED49ABAA4E7F81 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/main.cpp */,
+				962F91F3B70B47F8AA4D33C5 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D20ABEE041C346328FE5532D /* 01_aufgabe_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				9F04F5965B4C407280C37662 /* CMake Rules */,
+				D759747EF5FF4A6DA868C92D /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/CMakeLists.txt */,
+			);
+			name = 01_aufgabe_autogen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D3F6A3DB954B6DAD3B0410 /* 01_aufgabe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911183924AEE422F83C5DB79 /* Build configuration list for PBXNativeTarget "01_aufgabe" */;
+			buildPhases = (
+				C8BC35F4045F4317BD632458 /* CMake Rules */,
+				D0DDEA2C4D9F4C459C9B710F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B79E82A6A5E4B2CA3EDA328 /* PBXTargetDependency */,
+				4A4BDBBEC1DA4201ACDF0F16 /* PBXTargetDependency */,
+			);
+			name = 01_aufgabe;
+			productName = 01_aufgabe;
+			productReference = EA1F15F147CD451A82C268BA /* 01_aufgabe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FBEB10EF3E4960A7D79497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = A3758E9FDF38459A90AF6A4E /* Build configuration list for PBXProject "01_aufgabe" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A87DDA5F457F4FC1897958F0 /* Debug */,
+				ABED2DBA67D046B4A0B54FE5 /* Release */,
+				8BB8DE870BC14AABBB7FDC3A /* MinSizeRel */,
+				A9226ECD92E746069167415E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0827DF9C027640D8BD29E42C;
+			projectDirPath = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake";
+			projectRoot = "";
+			targets = (
+				9D33F5DF173D4F6099D7DC30 /* ALL_BUILD */,
+				A6D3F6A3DB954B6DAD3B0410 /* 01_aufgabe */,
+				DFB14AC903554601B444DC9E /* 01_aufgabe_autogen */,
+				BB78E803FF3A476883B55D44 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12883E17AFE340C4891CA7B6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2963B0E530304F28A834B25A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/CMakeScripts/01_aufgabe_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		60DEE8D48D504AF288DAEA9E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A799C798AD0E4135A9B6DC4D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B344FCF6870A49F786AAAE2F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C8BC35F4045F4317BD632458 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode -f /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/CMakeScripts/01_aufgabe_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F42721E8BD504A3EB60BA44D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DDEA2C4D9F4C459C9B710F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36BF1BF7DEF43A6A8766823 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/Brain.cpp */,
+				753B0C511E024C51B89B5793 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/LoadDataWidget.cpp */,
+				B3CD45AF95C948FE97200C1E /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/MainWindow.cpp */,
+				AF4AF44D40104D5B83F6CE15 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/TrainWidget.cpp */,
+				10F3C3E04CD143D8B7A13F95 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/src/main.cpp */,
+				2992F1272FA24AD4A4389082 /* /Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		468A6E37F8A24EA0A52AE2C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB78E803FF3A476883B55D44 /* ZERO_CHECK */;
+			targetProxy = 9B855AC6A832418C921CC3BE /* PBXContainerItemProxy */;
+		};
+		4A4BDBBEC1DA4201ACDF0F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB14AC903554601B444DC9E /* 01_aufgabe_autogen */;
+			targetProxy = A7464F5C9CAB4E40B9A5985F /* PBXContainerItemProxy */;
+		};
+		6B79E82A6A5E4B2CA3EDA328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB78E803FF3A476883B55D44 /* ZERO_CHECK */;
+			targetProxy = E9807FD7DF3A47BA80DB4C84 /* PBXContainerItemProxy */;
+		};
+		92BBF73DDD8D472CBB2B4292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D3F6A3DB954B6DAD3B0410 /* 01_aufgabe */;
+			targetProxy = FD4648C80D7D4EBCB472AC9B /* PBXContainerItemProxy */;
+		};
+		C6A5EC726AC843EE93D648E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB78E803FF3A476883B55D44 /* ZERO_CHECK */;
+			targetProxy = 343AA5B859CB48A3BEEA11F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09FA0E5EBD3445E490266649 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		13742C42CEB9461AAD63A6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/build";
+			};
+			name = Debug;
+		};
+		2D07B0EEDD754F9E8E438EC3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/include_RelWithDebInfo","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/abdullah/Library/Qt/5.10.0/clang_64/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_stitching.3.4.1.dylib /usr/local/lib/libopencv_superres.3.4.1.dylib /usr/local/lib/libopencv_videostab.3.4.1.dylib /usr/local/lib/libopencv_aruco.3.4.1.dylib /usr/local/lib/libopencv_bgsegm.3.4.1.dylib /usr/local/lib/libopencv_bioinspired.3.4.1.dylib /usr/local/lib/libopencv_ccalib.3.4.1.dylib /usr/local/lib/libopencv_dnn_objdetect.3.4.1.dylib /usr/local/lib/libopencv_dpm.3.4.1.dylib /usr/local/lib/libopencv_face.3.4.1.dylib /usr/local/lib/libopencv_fuzzy.3.4.1.dylib /usr/local/lib/libopencv_hfs.3.4.1.dylib /usr/local/lib/libopencv_img_hash.3.4.1.dylib /usr/local/lib/libopencv_line_descriptor.3.4.1.dylib /usr/local/lib/libopencv_optflow.3.4.1.dylib /usr/local/lib/libopencv_reg.3.4.1.dylib /usr/local/lib/libopencv_rgbd.3.4.1.dylib /usr/local/lib/libopencv_saliency.3.4.1.dylib /usr/local/lib/libopencv_stereo.3.4.1.dylib /usr/local/lib/libopencv_structured_light.3.4.1.dylib /usr/local/lib/libopencv_surface_matching.3.4.1.dylib /usr/local/lib/libopencv_tracking.3.4.1.dylib /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib /usr/local/lib/libopencv_ximgproc.3.4.1.dylib /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib /usr/local/lib/libopencv_xphoto.3.4.1.dylib /usr/local/lib/libboost_system-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_filesystem-mt.a /usr/local/lib/libboost_program_options-mt.a /usr/local/lib/libboost_serialization-mt.a /usr/local/lib/libboost_thread-mt.a /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_chrono-mt.a /usr/local/lib/libboost_atomic-mt.a /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /usr/local/lib/libshark_debug.a /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /usr/local/lib/libopencv_shape.3.4.1.dylib /usr/local/lib/libopencv_photo.3.4.1.dylib /usr/local/lib/libopencv_dnn.3.4.1.dylib /usr/local/lib/libopencv_datasets.3.4.1.dylib /usr/local/lib/libopencv_ml.3.4.1.dylib /usr/local/lib/libopencv_plot.3.4.1.dylib /usr/local/lib/libopencv_video.3.4.1.dylib /usr/local/lib/libopencv_calib3d.3.4.1.dylib /usr/local/lib/libopencv_features2d.3.4.1.dylib /usr/local/lib/libopencv_highgui.3.4.1.dylib /usr/local/lib/libopencv_videoio.3.4.1.dylib /usr/local/lib/libopencv_phase_unwrapping.3.4.1.dylib /usr/local/lib/libopencv_flann.3.4.1.dylib /usr/local/lib/libopencv_imgcodecs.3.4.1.dylib /usr/local/lib/libopencv_objdetect.3.4.1.dylib /usr/local/lib/libopencv_imgproc.3.4.1.dylib /usr/local/lib/libopencv_core.3.4.1.dylib /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DBF6209AAF4499F8CFAB23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		303F90371ED84E0F89A7DA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		42F9D27BE995468A86F01190 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		533C083B708D4B418066987D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E7C6295CD064F3FA3BCE9BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/include_MinSizeRel","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/abdullah/Library/Qt/5.10.0/clang_64/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_stitching.3.4.1.dylib /usr/local/lib/libopencv_superres.3.4.1.dylib /usr/local/lib/libopencv_videostab.3.4.1.dylib /usr/local/lib/libopencv_aruco.3.4.1.dylib /usr/local/lib/libopencv_bgsegm.3.4.1.dylib /usr/local/lib/libopencv_bioinspired.3.4.1.dylib /usr/local/lib/libopencv_ccalib.3.4.1.dylib /usr/local/lib/libopencv_dnn_objdetect.3.4.1.dylib /usr/local/lib/libopencv_dpm.3.4.1.dylib /usr/local/lib/libopencv_face.3.4.1.dylib /usr/local/lib/libopencv_fuzzy.3.4.1.dylib /usr/local/lib/libopencv_hfs.3.4.1.dylib /usr/local/lib/libopencv_img_hash.3.4.1.dylib /usr/local/lib/libopencv_line_descriptor.3.4.1.dylib /usr/local/lib/libopencv_optflow.3.4.1.dylib /usr/local/lib/libopencv_reg.3.4.1.dylib /usr/local/lib/libopencv_rgbd.3.4.1.dylib /usr/local/lib/libopencv_saliency.3.4.1.dylib /usr/local/lib/libopencv_stereo.3.4.1.dylib /usr/local/lib/libopencv_structured_light.3.4.1.dylib /usr/local/lib/libopencv_surface_matching.3.4.1.dylib /usr/local/lib/libopencv_tracking.3.4.1.dylib /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib /usr/local/lib/libopencv_ximgproc.3.4.1.dylib /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib /usr/local/lib/libopencv_xphoto.3.4.1.dylib /usr/local/lib/libboost_system-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_filesystem-mt.a /usr/local/lib/libboost_program_options-mt.a /usr/local/lib/libboost_serialization-mt.a /usr/local/lib/libboost_thread-mt.a /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_chrono-mt.a /usr/local/lib/libboost_atomic-mt.a /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /usr/local/lib/libshark_debug.a /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /usr/local/lib/libopencv_shape.3.4.1.dylib /usr/local/lib/libopencv_photo.3.4.1.dylib /usr/local/lib/libopencv_dnn.3.4.1.dylib /usr/local/lib/libopencv_datasets.3.4.1.dylib /usr/local/lib/libopencv_ml.3.4.1.dylib /usr/local/lib/libopencv_plot.3.4.1.dylib /usr/local/lib/libopencv_video.3.4.1.dylib /usr/local/lib/libopencv_calib3d.3.4.1.dylib /usr/local/lib/libopencv_features2d.3.4.1.dylib /usr/local/lib/libopencv_highgui.3.4.1.dylib /usr/local/lib/libopencv_videoio.3.4.1.dylib /usr/local/lib/libopencv_phase_unwrapping.3.4.1.dylib /usr/local/lib/libopencv_flann.3.4.1.dylib /usr/local/lib/libopencv_imgcodecs.3.4.1.dylib /usr/local/lib/libopencv_objdetect.3.4.1.dylib /usr/local/lib/libopencv_imgproc.3.4.1.dylib /usr/local/lib/libopencv_core.3.4.1.dylib /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E9A3B7B945C47D3922FE624 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6ABB8FCD6B854F979BD8918E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		798967D6F73B483FA626AEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/build";
+			};
+			name = Release;
+		};
+		82CA7E25F7DD439C9A927923 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		87FC3B7BC4D34B88A4B2689F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DCB192511734F77A26BAD17 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9D367B37FEAD4DF9BD1FE348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/include_Debug","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/abdullah/Library/Qt/5.10.0/clang_64/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_stitching.3.4.1.dylib /usr/local/lib/libopencv_superres.3.4.1.dylib /usr/local/lib/libopencv_videostab.3.4.1.dylib /usr/local/lib/libopencv_aruco.3.4.1.dylib /usr/local/lib/libopencv_bgsegm.3.4.1.dylib /usr/local/lib/libopencv_bioinspired.3.4.1.dylib /usr/local/lib/libopencv_ccalib.3.4.1.dylib /usr/local/lib/libopencv_dnn_objdetect.3.4.1.dylib /usr/local/lib/libopencv_dpm.3.4.1.dylib /usr/local/lib/libopencv_face.3.4.1.dylib /usr/local/lib/libopencv_fuzzy.3.4.1.dylib /usr/local/lib/libopencv_hfs.3.4.1.dylib /usr/local/lib/libopencv_img_hash.3.4.1.dylib /usr/local/lib/libopencv_line_descriptor.3.4.1.dylib /usr/local/lib/libopencv_optflow.3.4.1.dylib /usr/local/lib/libopencv_reg.3.4.1.dylib /usr/local/lib/libopencv_rgbd.3.4.1.dylib /usr/local/lib/libopencv_saliency.3.4.1.dylib /usr/local/lib/libopencv_stereo.3.4.1.dylib /usr/local/lib/libopencv_structured_light.3.4.1.dylib /usr/local/lib/libopencv_surface_matching.3.4.1.dylib /usr/local/lib/libopencv_tracking.3.4.1.dylib /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib /usr/local/lib/libopencv_ximgproc.3.4.1.dylib /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib /usr/local/lib/libopencv_xphoto.3.4.1.dylib /usr/local/lib/libboost_system-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_filesystem-mt.a /usr/local/lib/libboost_program_options-mt.a /usr/local/lib/libboost_serialization-mt.a /usr/local/lib/libboost_thread-mt.a /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_chrono-mt.a /usr/local/lib/libboost_atomic-mt.a /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /usr/local/lib/libshark_debug.a /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /usr/local/lib/libopencv_shape.3.4.1.dylib /usr/local/lib/libopencv_photo.3.4.1.dylib /usr/local/lib/libopencv_dnn.3.4.1.dylib /usr/local/lib/libopencv_datasets.3.4.1.dylib /usr/local/lib/libopencv_ml.3.4.1.dylib /usr/local/lib/libopencv_plot.3.4.1.dylib /usr/local/lib/libopencv_video.3.4.1.dylib /usr/local/lib/libopencv_calib3d.3.4.1.dylib /usr/local/lib/libopencv_features2d.3.4.1.dylib /usr/local/lib/libopencv_highgui.3.4.1.dylib /usr/local/lib/libopencv_videoio.3.4.1.dylib /usr/local/lib/libopencv_phase_unwrapping.3.4.1.dylib /usr/local/lib/libopencv_flann.3.4.1.dylib /usr/local/lib/libopencv_imgcodecs.3.4.1.dylib /usr/local/lib/libopencv_objdetect.3.4.1.dylib /usr/local/lib/libopencv_imgproc.3.4.1.dylib /usr/local/lib/libopencv_core.3.4.1.dylib /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A69C241E7E164366A669DC4E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ABE5E63A639F484DB798E66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/abdullah/Library/Qt/5.10.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NOMINMAX,QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode/01_aufgabe_autogen/include_Release","/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/cmake/../include");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /Users/abdullah/Library/Qt/5.10.0/clang_64/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_stitching.3.4.1.dylib /usr/local/lib/libopencv_superres.3.4.1.dylib /usr/local/lib/libopencv_videostab.3.4.1.dylib /usr/local/lib/libopencv_aruco.3.4.1.dylib /usr/local/lib/libopencv_bgsegm.3.4.1.dylib /usr/local/lib/libopencv_bioinspired.3.4.1.dylib /usr/local/lib/libopencv_ccalib.3.4.1.dylib /usr/local/lib/libopencv_dnn_objdetect.3.4.1.dylib /usr/local/lib/libopencv_dpm.3.4.1.dylib /usr/local/lib/libopencv_face.3.4.1.dylib /usr/local/lib/libopencv_fuzzy.3.4.1.dylib /usr/local/lib/libopencv_hfs.3.4.1.dylib /usr/local/lib/libopencv_img_hash.3.4.1.dylib /usr/local/lib/libopencv_line_descriptor.3.4.1.dylib /usr/local/lib/libopencv_optflow.3.4.1.dylib /usr/local/lib/libopencv_reg.3.4.1.dylib /usr/local/lib/libopencv_rgbd.3.4.1.dylib /usr/local/lib/libopencv_saliency.3.4.1.dylib /usr/local/lib/libopencv_stereo.3.4.1.dylib /usr/local/lib/libopencv_structured_light.3.4.1.dylib /usr/local/lib/libopencv_surface_matching.3.4.1.dylib /usr/local/lib/libopencv_tracking.3.4.1.dylib /usr/local/lib/libopencv_xfeatures2d.3.4.1.dylib /usr/local/lib/libopencv_ximgproc.3.4.1.dylib /usr/local/lib/libopencv_xobjdetect.3.4.1.dylib /usr/local/lib/libopencv_xphoto.3.4.1.dylib /usr/local/lib/libboost_system-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_filesystem-mt.a /usr/local/lib/libboost_program_options-mt.a /usr/local/lib/libboost_serialization-mt.a /usr/local/lib/libboost_thread-mt.a /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_chrono-mt.a /usr/local/lib/libboost_atomic-mt.a /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /usr/local/lib/libshark_debug.a /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/QtWidgets /usr/local/lib/libopencv_shape.3.4.1.dylib /usr/local/lib/libopencv_photo.3.4.1.dylib /usr/local/lib/libopencv_dnn.3.4.1.dylib /usr/local/lib/libopencv_datasets.3.4.1.dylib /usr/local/lib/libopencv_ml.3.4.1.dylib /usr/local/lib/libopencv_plot.3.4.1.dylib /usr/local/lib/libopencv_video.3.4.1.dylib /usr/local/lib/libopencv_calib3d.3.4.1.dylib /usr/local/lib/libopencv_features2d.3.4.1.dylib /usr/local/lib/libopencv_highgui.3.4.1.dylib /usr/local/lib/libopencv_videoio.3.4.1.dylib /usr/local/lib/libopencv_phase_unwrapping.3.4.1.dylib /usr/local/lib/libopencv_flann.3.4.1.dylib /usr/local/lib/libopencv_imgcodecs.3.4.1.dylib /usr/local/lib/libopencv_objdetect.3.4.1.dylib /usr/local/lib/libopencv_imgproc.3.4.1.dylib /usr/local/lib/libopencv_core.3.4.1.dylib /usr/local/lib/libboost_system-mt.dylib /usr/local/lib/libboost_date_time-mt.dylib /usr/local/lib/libboost_filesystem-mt.dylib /usr/local/lib/libboost_program_options-mt.dylib /usr/local/lib/libboost_serialization-mt.dylib /usr/local/lib/libboost_thread-mt.dylib /usr/local/lib/libboost_unit_test_framework-mt.dylib /usr/local/lib/libboost_chrono-mt.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/lib/libpthread.dylib -framework Accelerate /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/QtGui /Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/include/opencv,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtWidgets.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/abdullah/Library/Qt/5.10.0/clang_64/lib/QtCore.framework/Headers,"/Users/abdullah/Library/Qt/5.10.0/clang_64/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AD1EE6C801A049D680CA1CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CDB9662515CB4D1D93F8CE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D488441093764E07B73829F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = 01_aufgabe_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/08_tag/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58EC2376FCBD44A2BE40BB4D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABB8FCD6B854F979BD8918E /* Debug */,
+				CDB9662515CB4D1D93F8CE41 /* Release */,
+				5E9A3B7B945C47D3922FE624 /* MinSizeRel */,
+				42F9D27BE995468A86F01190 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		654CDD28EF114F5189BC58AA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303F90371ED84E0F89A7DA16 /* Debug */,
+				AD1EE6C801A049D680CA1CB2 /* Release */,
+				533C083B708D4B418066987D /* MinSizeRel */,
+				87FC3B7BC4D34B88A4B2689F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		911183924AEE422F83C5DB79 /* Build configuration list for PBXNativeTarget "01_aufgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D367B37FEAD4DF9BD1FE348 /* Debug */,
+				ABE5E63A639F484DB798E66F /* Release */,
+				5E7C6295CD064F3FA3BCE9BE /* MinSizeRel */,
+				2D07B0EEDD754F9E8E438EC3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3758E9FDF38459A90AF6A4E /* Build configuration list for PBXProject "01_aufgabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13742C42CEB9461AAD63A6BA /* Debug */,
+				798967D6F73B483FA626AEEF /* Release */,
+				09FA0E5EBD3445E490266649 /* MinSizeRel */,
+				82CA7E25F7DD439C9A927923 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC0F9B7FA1184465A73DA440 /* Build configuration list for PBXAggregateTarget "01_aufgabe_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBF6209AAF4499F8CFAB23F /* Debug */,
+				D488441093764E07B73829F1 /* Release */,
+				A69C241E7E164366A669DC4E /* MinSizeRel */,
+				8DCB192511734F77A26BAD17 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FBEB10EF3E4960A7D79497 /* Project object */;
+}

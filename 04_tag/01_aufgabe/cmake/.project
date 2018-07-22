@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>01_aufgabe@cmake</name>
+	<comment></comment>
+	<projects></projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j4</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe//TestMainWindow.ui</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/gui/TestMainWindow.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/Adresseingabe.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/ownValidator.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/TestMainWindow.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/CSVManager.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/AdressModel.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/SQLManager.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Source Files/mocs_compilation.cpp</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/01_aufgabe_autogen/mocs_compilation.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/Adresseingabe.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/Adresseingabe.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/ownValidator.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/ownValidator.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/TestMainWindow.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/TestMainWindow.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/CSVManager.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/CSVManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/AdressModel.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/AdressModel.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/SQLManager.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/include/SQLManager.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Header Files/ui_TestMainWindow.h</name>
+			<type>1</type>
+			<location>/Users/abdullah/_UNIVERSITAET/3-MOODLE/semester_3/anwendungsentwicklung/cpp/04_tag/01_aufgabe/cmake/ui_TestMainWindow.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 01_aufgabe/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
