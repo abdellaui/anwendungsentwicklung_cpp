@@ -1,3 +1,2 @@
-*Makefile linguist-vendored
 *.txt linguist-vendored
 *.make linguist-vendored
